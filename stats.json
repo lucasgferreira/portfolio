@@ -1,0 +1,84 @@
+{
+  "assetsByChunkName": {
+    "path---blog-todoapp": [
+      "path---blog-todoapp-5331ffdb79bf1776a3b4.js",
+      "path---blog-todoapp-5331ffdb79bf1776a3b4.js.map"
+    ],
+    "component---src-pages-projetos-js": [
+      "component---src-pages-projetos-js-46354f18f4df0c4a74ab.js",
+      "component---src-pages-projetos-js-46354f18f4df0c4a74ab.js.map"
+    ],
+    "path---projetos": [
+      "path---projetos-5b076460e7f9a34a3e34.js",
+      "path---projetos-5b076460e7f9a34a3e34.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---home": [
+      "path---home-a0e39f21c11f6a62c5ab.js",
+      "path---home-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog-comversorbitcoin": [
+      "path---blog-comversorbitcoin-fce9c7d5efb420b786d0.js",
+      "path---blog-comversorbitcoin-fce9c7d5efb420b786d0.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-9b23e8b382ba3721648f.js",
+      "component---src-layouts-index-js-9b23e8b382ba3721648f.js.map"
+    ],
+    "component---src-templates-blog-template-js": [
+      "component---src-templates-blog-template-js-d1f8e555f886c348ecff.js",
+      "component---src-templates-blog-template-js-d1f8e555f886c348ecff.js.map"
+    ],
+    "path---skills": [
+      "path---skills-a0e39f21c11f6a62c5ab.js",
+      "path---skills-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-home-js": [
+      "component---src-pages-home-js-b8ac1130596d7f7f2652.js",
+      "component---src-pages-home-js-b8ac1130596d7f7f2652.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-71647045988c7f809179.js",
+      "build-js-styles.css",
+      "commons-71647045988c7f809179.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---portfolio": [
+      "path---portfolio-a0e39f21c11f6a62c5ab.js",
+      "path---portfolio-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-a3c690b0199d3dae16b0.js",
+      "build-js-styles.css",
+      "app-a3c690b0199d3dae16b0.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-portfolio-js": [
+      "component---src-pages-portfolio-js-74a607d8e5860ed3dac6.js",
+      "component---src-pages-portfolio-js-74a607d8e5860ed3dac6.js.map"
+    ],
+    "path---blog-sigdro": [
+      "path---blog-sigdro-35df8598ad5281ea2a68.js",
+      "path---blog-sigdro-35df8598ad5281ea2a68.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-skills-js": [
+      "component---src-pages-skills-js-40a04d7962d74f516326.js",
+      "component---src-pages-skills-js-40a04d7962d74f516326.js.map"
+    ]
+  }
+}
