@@ -1,0 +1,33 @@
+$bg-color: #333;
+$bl-color: #22BAD9;
+
+.TypistExample {
+
+  a {
+    color: inherit;
+  }
+  &-header {
+    text-align: center;
+    font-size: 4em;
+    cursor: pointer;
+    color: $bl-color;
+  }
+  &-message {
+    color: #2BBBAD;
+    .flash {
+      color: $bl-color;
+      font-weight: bold;
+      text-decoration: underline;
+
+      animation-name: blinker;
+      animation-duration: 0.7s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      @keyframes blinker {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+    }
+  }
+}

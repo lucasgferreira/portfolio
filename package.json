@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gatsby": "^1.9.241",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-catch-links": "^1.0.19",
+    "gatsby-plugin-react-helmet": "^2.0.9",
+    "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.39",
+    "github-markdown-css": "^2.10.0",
+    "react-helmet": "^5.2.0",
+    "react-materialize": "^2.1.2",
+    "react-plx": "^1.1.1",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-typist": "^2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "lint": "eslint '**/*.jsx'",
+    "lint:fix": "eslint '**/*.jsx' --fix"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
+  }
+}
