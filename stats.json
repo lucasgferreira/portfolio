@@ -4,17 +4,25 @@
       "path---blog-todoapp-5331ffdb79bf1776a3b4.js",
       "path---blog-todoapp-5331ffdb79bf1776a3b4.js.map"
     ],
-    "component---src-pages-portfolio-projetos-js": [
-      "component---src-pages-portfolio-projetos-js-e2d153dcf5f941d63500.js",
-      "component---src-pages-portfolio-projetos-js-e2d153dcf5f941d63500.js.map"
+    "component---src-pages-projetos-js": [
+      "component---src-pages-projetos-js-b9a5a2bd7b12afb5db0d.js",
+      "component---src-pages-projetos-js-b9a5a2bd7b12afb5db0d.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-2bf83e00fb0fcd28734b.js",
+      "component---src-pages-index-js-2bf83e00fb0fcd28734b.js.map"
+    ],
+    "path---projetos": [
+      "path---projetos-5b076460e7f9a34a3e34.js",
+      "path---projetos-5b076460e7f9a34a3e34.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---portfolio-skills": [
-      "path---portfolio-skills-a0e39f21c11f6a62c5ab.js",
-      "path---portfolio-skills-a0e39f21c11f6a62c5ab.js.map"
+    "path---home": [
+      "path---home-a0e39f21c11f6a62c5ab.js",
+      "path---home-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog-comversorbitcoin": [
       "path---blog-comversorbitcoin-fce9c7d5efb420b786d0.js",
@@ -28,21 +36,21 @@
       "component---src-templates-blog-template-js-38fab0397ca024656a6a.js",
       "component---src-templates-blog-template-js-38fab0397ca024656a6a.js.map"
     ],
-    "path---portfolio-home": [
-      "path---portfolio-home-a0e39f21c11f6a62c5ab.js",
-      "path---portfolio-home-a0e39f21c11f6a62c5ab.js.map"
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---skills": [
+      "path---skills-a0e39f21c11f6a62c5ab.js",
+      "path---skills-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-home-js": [
+      "component---src-pages-home-js-0fcb8aad7185ca29da19.js",
+      "component---src-pages-home-js-0fcb8aad7185ca29da19.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
-      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
-    ],
-    "component---src-pages-portfolio-home-js": [
-      "component---src-pages-portfolio-home-js-1b8497133de1001dec75.js",
-      "component---src-pages-portfolio-home-js-1b8497133de1001dec75.js.map"
-    ],
-    "path---portfolio-projetos": [
-      "path---portfolio-projetos-5b076460e7f9a34a3e34.js",
-      "path---portfolio-projetos-5b076460e7f9a34a3e34.js.map"
+      "component---src-pages-404-js-495d99d91521e1096e75.js",
+      "component---src-pages-404-js-495d99d91521e1096e75.js.map"
     ],
     "commons": [
       "commons-71647045988c7f809179.js",
@@ -54,22 +62,10 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-portfolio-skills-js": [
-      "component---src-pages-portfolio-skills-js-c5559103b647fd6276e9.js",
-      "component---src-pages-portfolio-skills-js-c5559103b647fd6276e9.js.map"
-    ],
-    "path---portfolio": [
-      "path---portfolio-a0e39f21c11f6a62c5ab.js",
-      "path---portfolio-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-portfolio-index-js": [
-      "component---src-pages-portfolio-index-js-242f4d5a05830b862145.js",
-      "component---src-pages-portfolio-index-js-242f4d5a05830b862145.js.map"
-    ],
     "app": [
-      "app-20cc416fd5375b3e686a.js",
+      "app-be142e673399b9779b0c.js",
       "build-js-styles.css",
-      "app-20cc416fd5375b3e686a.js.map",
+      "app-be142e673399b9779b0c.js.map",
       "build-js-styles.css.map"
     ],
     "path---blog-sigdro": [
@@ -79,6 +75,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-skills-js": [
+      "component---src-pages-skills-js-40a04d7962d74f516326.js",
+      "component---src-pages-skills-js-40a04d7962d74f516326.js.map"
     ]
   }
 }
