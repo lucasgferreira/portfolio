@@ -13,40 +13,37 @@ module.exports = class HTML extends React.Component {
   render() {
     let css
     if (process.env.NODE_ENV === `production`) {
-      css = (
-        <style
-          id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
-        />
-      )
+      css = (<style
+        id="gatsby-inlined-css"
+        dangerouslySetInnerHTML={{
+        __html: stylesStr
+      }}/>)
     }
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta charSet="utf-8"/>
+          <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
           <meta
             name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          {this.props.headComponents}
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/> {this.props.headComponents}
           {css}
-          
-          
+          <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"
+            rel="stylesheet"/>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
           <div
             key={`body`}
             id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
-          />
-          {this.props.postBodyComponents}
-
+            dangerouslySetInnerHTML={{
+            __html: this.props.body
+          }}/> {this.props.postBodyComponents}
           <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-          
-          </body>
+          <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        </body>
       </html>
     )
   }

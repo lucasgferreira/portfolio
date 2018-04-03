@@ -1,5 +1,6 @@
 import React from "react";
-import PostLink from "../components/post-link";
+import {navigateTo} from "gatsby-link";
+import PostLink from '../components/post-link.jsx';
 
 const header = () => {
   return (
@@ -8,8 +9,10 @@ const header = () => {
         <span className="card-title">Projetos</span>
       </div>
       <div className="card-action">
-        <a className="waves-effect waves-light btn" href="/portfolio/">
-          <i className="material-icons left">arrow_back</i>Home</a>
+        <button
+          onClick={() => navigateTo('/portfolio')}
+          className="waves-effect waves-light btn">
+          <i className="material-icons left">arrow_back</i>Home</button>
       </div>
     </div>
   );
@@ -25,11 +28,9 @@ const IndexPage = ({
   const Posts = edges.filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node}/>);
 
-  return <div className="">
+  return <div className="projetos-bg">
     <div className="container">{header()}
-      <div className="row" style={{
-        paddingBottom: '100px'
-      }}>{Posts}</div>
+      <div className="row">{Posts}</div>
     </div>
   </div>;
 };

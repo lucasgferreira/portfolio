@@ -45,8 +45,8 @@ export default class Footer extends Component {
         <div className="valign-wrapper">
           <div className="container">
 
-            <a href="/projetos" className="waves-effect waves-light btn-large">
-              <i className="material-icons left">code</i>projetos</a>
+            <button onClick={ () => navigateTo('/portfolio/projetos')} className="waves-effect waves-light btn-large">
+              <i className="material-icons left">code</i>projetos</button>
 
             <Card
               header={< CardTitle reveal image = {

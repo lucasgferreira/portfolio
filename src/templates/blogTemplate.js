@@ -1,14 +1,15 @@
 import React from "react";
+import {navigateTo} from "gatsby-link";
 
 const header = () => {
   return (
     <div className="card">
       <div className="card-content">
-        <a href="https://github.com/lucasgferreira"><span className="card-title">https://github.com/lucasgferreira</span></a>
+        <a href="https://github.com/lucasgferreira"><span>https://github.com/lucasgferreira</span></a>
       </div>
       <div className="card-action">
-        <a className="waves-effect waves-light btn" href="/projetos/">
-          <i className="material-icons left">arrow_back</i>Projetos</a>
+        <button onClick={ () => navigateTo('/portfolio/projetos')} className="waves-effect waves-light btn">
+          <i className="material-icons left">arrow_back</i>Projetos</button>
       </div>
     </div>
   );

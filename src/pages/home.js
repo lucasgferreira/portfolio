@@ -79,14 +79,14 @@ export default class Home extends Component {
                 <i className="fas fa-envelope"></i>
               </a>
               <a href="https://www.linkedin.com/in/lucas-goncalves-programador" className="btn-floating waves-effect waves-light light-blue darken-4">
-                <i className="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </div>
 
           </div>
 
         </div>
-        <div className="mouseicon center-align valign-wrapper">
+        <div className="mouseicon center-align">
           <Mouse/>
         </div>
       </div>
