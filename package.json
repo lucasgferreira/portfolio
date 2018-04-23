@@ -12,7 +12,7 @@
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.9",
     "gatsby-plugin-sass": "^1.0.25",
-    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-source-filesystem": "^1.9.251",
     "gatsby-transformer-remark": "^1.7.39",
     "github-markdown-css": "^2.10.0",
     "netlify-cms": "^1.6.0",
