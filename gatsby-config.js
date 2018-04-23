@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: 'Portfolio'
   },
-  pathPrefix: "/portfolio",
   plugins: [
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet', {
