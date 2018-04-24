@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
   render() {
 
     return (
-      <BubbleLayerBoundary className="blue-grey darken-4">
+      <BubbleLayerBoundary className="bg-dark darken-4">
         <main>
 
           <Home/>

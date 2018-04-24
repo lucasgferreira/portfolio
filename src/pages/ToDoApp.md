@@ -1,5 +1,5 @@
 ---
-path: "/blog/todoapp"
+path: "/projetos/todoapp"
 date: "2018-03-30"
 title: "ToDoApp"
 image: "https://raw.githubusercontent.com/lucasgferreira/ToDoApp/master/screen/login.png"

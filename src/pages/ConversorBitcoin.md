@@ -1,5 +1,5 @@
 ---
-path: "/blog/comversorbitcoin"
+path: "/projetos/comversorbitcoin"
 date: "2018-01-15"
 title: "Conversor de Bitcoin"
 image: "https://raw.githubusercontent.com/lucasgferreira/valor-bitcoin/master/prints/print_full_screen.png"

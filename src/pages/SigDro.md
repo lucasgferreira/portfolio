@@ -1,5 +1,5 @@
 ---
-path: "/blog/sigdro"
+path: "/projetos/sigdro"
 date: "2018-03-25"
 title: "ToDoApp"
 image: "https://raw.githubusercontent.com/lucasgferreira/Drogaria/master/screen/vendas.png"

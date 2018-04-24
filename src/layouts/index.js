@@ -17,7 +17,7 @@ const TemplateWrapper = ({children}) => (
       <link rel="icon" type="image/png" href={favicon}/>
 
       <meta name="msapplication-TileColor" content="#2BBBAD"/>
-      <meta name="theme-color" content="#263238"/>
+      <meta name="theme-color" content="#171e22"/>
 
       <title>Lucas Gonçalves</title>
     </Helmet>

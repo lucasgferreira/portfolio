@@ -10,7 +10,7 @@ const header = () => {
       </div>
       <div className="card-action">
         <button
-          onClick={() => navigateTo('/portfolio')}
+          onClick={() => navigateTo('/')}
           className="waves-effect waves-light btn">
           <i className="material-icons left">arrow_back</i>Home</button>
       </div>

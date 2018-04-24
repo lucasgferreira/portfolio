@@ -8,7 +8,7 @@ const header = () => {
         <a href="https://github.com/lucasgferreira"><span>https://github.com/lucasgferreira</span></a>
       </div>
       <div className="card-action">
-        <button onClick={ () => navigateTo('/portfolio/projetos')} className="waves-effect waves-light btn">
+        <button onClick={ () => navigateTo('/projetos')} className="waves-effect waves-light btn">
           <i className="material-icons left">arrow_back</i>Projetos</button>
       </div>
     </div>
