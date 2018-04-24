@@ -16,7 +16,7 @@ const NotFoundPage = () => (
             <p>Você acabou de acertar uma rota que não existe ... a tristeza.</p>
           </div>
           <div className="card-action">
-            <a className="blue-text" href="/portfolio/">pagina principal</a>
+            <a className="blue-text" href="/">pagina principal</a>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Meu portfolio",
   "version": "1.0.0",
-  "author": "Kyle Mathews <lucasg_f@outlook.com>",
+  "author": "Lucas Gonçalves <lucasg_f@outlook.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.251",
