@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import 'github-markdown-css/github-markdown.css';
-import 'material-icons/iconfont/material-icons.scss';
 
 import Header from '../components/Header';
 import './styles/style.css';
