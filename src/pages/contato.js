@@ -16,7 +16,7 @@ export default class Footer extends Component {
   form = () => {
     return (
       <div>
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha>
           <input type="hidden" name="form-name" value="contact" />
           <div className="row left-align">
             <div className="input-field col s12">
