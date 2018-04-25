@@ -4,8 +4,6 @@ import Bubble, {BubbleLayer, BubbleCluster, BubbleLayerBoundary} from "../compon
 
 import {Parallax} from "react-materialize";
 
-import Header from '../components/Header';
-
 import Home from './home';
 import Skills from './skills';
 import Footer from '../components/footer';
@@ -29,7 +27,6 @@ export default class Portfolio extends Component {
               <Parallax className="parallaxbg" imageSrc={bgcode}/>
               <Footer/></div>
           </ScrollableAnchor>
-          <Header/>
         </main>
         <BubbleLayer travel={5}>
           <Bubble

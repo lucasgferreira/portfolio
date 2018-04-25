@@ -25,6 +25,14 @@
   max-height: 100px;
 }
 
+.contato-bg{
+  background: url('../assets/contact_us.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: auto;
+  box-sizing: border-box;
+}
+
 .footer {
   height: 100vh;
 }

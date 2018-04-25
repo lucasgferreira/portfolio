@@ -21,7 +21,7 @@ const TemplateWrapper = ({children}) => (
 
       <title>Lucas Gonçalves</title>
     </Helmet>
-    
+    <Header/>
     <div>
       {children()}
     </div>
