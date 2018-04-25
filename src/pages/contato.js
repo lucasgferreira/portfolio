@@ -16,7 +16,7 @@ export default class Footer extends Component {
   form = () => {
     return (
       <div>
-        <form name="contact" netlify>
+        <form name="contact" method="post" netlify>
           <div className="row left-align">
             <div className="input-field col s12">
               <i className="material-icons prefix">account_circle</i>
@@ -42,16 +42,16 @@ export default class Footer extends Component {
               <i className="material-icons prefix">message</i>
               <textarea
                 name="message"
-                id="message"
+                id="ms"
                 className="materialize-textarea"
               />
-              <label for="message">Mensagen</label>
+              <label for="ms">Mensagen</label>
             </div>
           </div>
+          <div data-netlify-recaptcha></div>
           <button
             className="btn waves-effect grey waves-dark darken-3 white-text z-depth-4"
             type="submit"
-            name="action"
           >
             Submit
             <i className="material-icons right">send</i>
