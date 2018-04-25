@@ -16,7 +16,7 @@ export default class Footer extends Component {
   form = () => {
     return (
       <div>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" netlify>
           <div className="row left-align">
             <div className="input-field col s12">
               <i className="material-icons prefix">account_circle</i>
@@ -81,7 +81,7 @@ export default class Footer extends Component {
                       className="waves-effect waves-light btn grey darken-2"
                       target="_blank"
                       href="https://github.com/lucasgferreira"
-                      style={{ margin: '5px' }}
+                      style={{ margin: '1px' }}
                     >
                       <i className="material-icons right">code</i>Github
                     </a>
