@@ -21,14 +21,9 @@ export default class Footer extends Component {
           method="post"
           action="/success"
           data-netlify="true"
-          netlify-honeypot="bot-field"
+          data-netlify-honeypot="bot-field"
         >
-          <p class="hidden" style={{display: 'none'}}>
-            <label>
-              Don’t fill this out if you're human: <input name="bot-field" />
-            </label>
-          </p>
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <div className="row left-align">
             <div className="input-field col s12">
               <i className="material-icons prefix">account_circle</i>
