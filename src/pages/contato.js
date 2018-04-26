@@ -16,8 +16,19 @@ export default class Footer extends Component {
   form = () => {
     return (
       <div>
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha>
-          <input type="hidden" name="form-name" value="contact" />
+        <form
+          name="contact"
+          method="post"
+          action="/success"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact"
+            data-netlify-recaptcha
+          />
           <div className="row left-align">
             <div className="input-field col s12">
               <i className="material-icons prefix">account_circle</i>
@@ -49,7 +60,7 @@ export default class Footer extends Component {
               <label for="ms">Mensagen</label>
             </div>
           </div>
-          <div data-netlify-recaptcha></div>
+          <div data-netlify-recaptcha />
           <button
             className="btn waves-effect grey waves-dark darken-3 white-text z-depth-4"
             type="submit"
@@ -71,9 +82,9 @@ export default class Footer extends Component {
               <div className="card transparent z-depth-0">
                 <div className="card-content white-text">
                   <span className="card-title">Redes sociais</span>
-                  <p style={{fontSize: '14pt'}}>
-                    Deixe seu recado no formulário de contato!
-                    Ou pelo e-mail: lucasg_f@outlook.com
+                  <p style={{ fontSize: '14pt' }}>
+                    Deixe seu recado no formulário de contato! Ou pelo e-mail:
+                    lucasg_f@outlook.com
                   </p>
                 </div>
                 <div className="card-action">

@@ -1,6 +1,7 @@
 .hero {
-  height: 80vh;
-  color: white;
+  min-height: 90vh;
+  width: auto;
+  box-sizing: border-box;
 }
 
 .bg-dark {
@@ -8,7 +9,7 @@
 }
 
 .mouseicon {
-  height: 20vh;
+  height: 10vh;
   margin-bottom: 50px;
 }
 
@@ -25,7 +26,7 @@
   max-height: 100px;
 }
 
-.contato-bg{
+.contato-bg {
   background: url('../assets/contact_us.jpg') no-repeat center center;
   background-size: cover;
   min-height: 100vh;

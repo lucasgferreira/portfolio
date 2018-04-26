@@ -24,68 +24,75 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="valign-wrapper hero masthead-font">
-          <div className="container center-align">
-            <div className="TypistExample">
-              <Typist
-                className="TypistExample-header"
-                avgTypingSpeed={4000}
-                startDelay={1000}
-                onTypingDone={this.onHeaderTyped}
-                cursor={{
-                  show: true,
-                  blink: true,
-                  element: '|',
-                  hideWhenDone: true,
-                  hideWhenDoneDelay: 0,
-                }}
-              >
-                <a
-                  className="text-uppercase h1"
-                  style={{
-                    color: '#eee',
+        <div className="valign-wrapper center-align hero masthead-font">
+          <div className="container">
+            <div className="card transparent z-depth-0">
+              <div className="card-content white-text" style={{margin: '0px', padding: '0px'}}>
+                <Typist
+                  className="TypistExample-header"
+                  avgTypingSpeed={4000}
+                  startDelay={1000}
+                  onTypingDone={this.onHeaderTyped}
+                  cursor={{
+                    show: true,
+                    blink: true,
+                    element: '|',
+                    hideWhenDone: true,
+                    hideWhenDoneDelay: 0,
                   }}
                 >
-                  <strong>Lucas Gonçalves</strong>
-                </a>
-              </Typist>
-              <div className="TypistExample-content mb-4">
-                {this.state.renderMsg ? (
-                  <Typist
-                    className="TypistExample-message p"
-                    cursor={{
-                      hideWhenDone: false,
+                  <a
+                    className="text-uppercase h1"
+                    style={{
+                      color: '#eee',
                     }}
                   >
-                    <strong className="font-weight-bold">{'<p>'} </strong>
-                    <a
-                      className="p"
-                      style={{
-                        color: '#FFF',
+                    <strong>Lucas Gonçalves</strong>
+                  </a>
+                </Typist>
+                <div className="TypistExample-content mb-4">
+                  {this.state.renderMsg ? (
+                    <Typist
+                      className="TypistExample-message p"
+                      cursor={{
+                        hideWhenDone: false,
                       }}
                     >
-                      Desenvolvedor Web & Mobile
-                    </a>
-                    <Typist.Delay ms={500} />
-                    <strong className="font-weight-bold">{' p>'}</strong>
-                    <Typist.Backspace count={2} delay={1000} />
-                    <Typist.Delay ms={750} />
-                    <strong className="font-weight-bold">{' </p>'}</strong>
-                  </Typist>
-                ) : null}
+                      <strong className="font-weight-bold">{'<p>'} </strong>
+                      <a
+                        className="p"
+                        style={{
+                          color: '#FFF',
+                        }}
+                      >
+                        Desenvolvedor Web & Mobile
+                      </a>
+                      <Typist.Delay ms={500} />
+                      <strong className="font-weight-bold">{' p>'}</strong>
+                      <Typist.Backspace count={2} delay={1000} />
+                      <Typist.Delay ms={750} />
+                      <strong className="font-weight-bold">{' </p>'}</strong>
+                    </Typist>
+                  ) : null}
+                </div>
+              </div>
+              <div className="card-action">
+                <div className="row center-align">
+                  <button
+                    onClick={() => navigateTo('/projetos')}
+                    className="waves-effect waves-light btn-large green darken-2"
+                  >
+                    <i className="material-icons left">library_books</i>projetos
+                  </button>
+                </div>
               </div>
             </div>
-            <button
-              onClick={() => navigateTo('/projetos')}
-              className="waves-effect waves-light btn-large green darken-2"
-            >
-              <i className="material-icons left">library_books</i>projetos
-            </button>
+           
           </div>
         </div>
         <div className="mouseicon center-align">
-          <Mouse />
-        </div>
+              <Mouse />
+            </div>
       </div>
     )
   }

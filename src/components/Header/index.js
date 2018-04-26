@@ -15,12 +15,18 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <Navbar brand="Lucas Gonçalves" fixed right className="bg-dark darken-4">
-        <NavItem onClick={() => console.log('test click')}>
-          Getting started
-        </NavItem>
-        <NavItem href="components.html">Components</NavItem>
-      </Navbar>
+      <Button
+        floating
+        fab="horizontal"
+        icon="menu"
+        className="green darken-4"
+        large
+        style={{ bottom: '45px', right: '24px' }}
+      >
+        <Button floating icon="contacts" onClick={()=>{goToAnchor('contato')}} className="green darken-3" />
+        <Button floating icon="code" onClick={()=>{goToAnchor('skills')}} className="grey darken-3" />
+        <Button floating icon="arrow_upward" onClick={()=>{goToTop()}} className="blue darken-3" />
+      </Button>
     )
   }
 }

@@ -9,7 +9,6 @@ import {
   Input,
 } from 'react-materialize'
 import { navigateTo } from 'gatsby-link'
-import Contato from '../../pages/contato'
 import bgcode from '../../layouts/assets/contact_us.jpg'
 
 export default class Footer extends Component {
@@ -31,7 +30,6 @@ export default class Footer extends Component {
   render() {
     return (
       <div>
-        <Contato />
 
         <footer className="page-footer green darken-3">
           <div className="container">
