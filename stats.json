@@ -1,40 +1,48 @@
 {
   "assetsByChunkName": {
-    "path---blog-todoapp": [
-      "path---blog-todoapp-5331ffdb79bf1776a3b4.js",
-      "path---blog-todoapp-5331ffdb79bf1776a3b4.js.map"
+    "path---contato": [
+      "path---contato-a0e39f21c11f6a62c5ab.js",
+      "path---contato-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projetos-js": [
-      "component---src-pages-projetos-js-b9a5a2bd7b12afb5db0d.js",
-      "component---src-pages-projetos-js-b9a5a2bd7b12afb5db0d.js.map"
+      "component---src-pages-projetos-js-20b5b8cef010fb2c7301.js",
+      "component---src-pages-projetos-js-20b5b8cef010fb2c7301.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-2bf83e00fb0fcd28734b.js",
-      "component---src-pages-index-js-2bf83e00fb0fcd28734b.js.map"
+      "component---src-pages-index-js-440ae59959d0e3b8c23a.js",
+      "component---src-pages-index-js-440ae59959d0e3b8c23a.js.map"
+    ],
+    "component---src-pages-success-js": [
+      "component---src-pages-success-js-57d70a052c04d76d5c8f.js",
+      "component---src-pages-success-js-57d70a052c04d76d5c8f.js.map"
     ],
     "path---projetos": [
-      "path---projetos-5b076460e7f9a34a3e34.js",
-      "path---projetos-5b076460e7f9a34a3e34.js.map"
+      "path---projetos-82e39e2512029f699c45.js",
+      "path---projetos-82e39e2512029f699c45.js.map"
+    ],
+    "path---projetos-comversorbitcoin": [
+      "path---projetos-comversorbitcoin-b265dc4a2bc20d08c5b8.js",
+      "path---projetos-comversorbitcoin-b265dc4a2bc20d08c5b8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---projetos-todoapp": [
+      "path---projetos-todoapp-7d57f7bf5c8639a2d78d.js",
+      "path---projetos-todoapp-7d57f7bf5c8639a2d78d.js.map"
+    ],
     "path---home": [
       "path---home-a0e39f21c11f6a62c5ab.js",
       "path---home-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---blog-comversorbitcoin": [
-      "path---blog-comversorbitcoin-fce9c7d5efb420b786d0.js",
-      "path---blog-comversorbitcoin-fce9c7d5efb420b786d0.js.map"
-    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-224aaf19dffdba47d501.js",
-      "component---src-layouts-index-js-224aaf19dffdba47d501.js.map"
+      "component---src-layouts-index-js-2868f6d8159ffb1bfde1.js",
+      "component---src-layouts-index-js-2868f6d8159ffb1bfde1.js.map"
     ],
     "component---src-templates-blog-template-js": [
-      "component---src-templates-blog-template-js-38fab0397ca024656a6a.js",
-      "component---src-templates-blog-template-js-38fab0397ca024656a6a.js.map"
+      "component---src-templates-blog-template-js-31f4d61299795e918545.js",
+      "component---src-templates-blog-template-js-31f4d61299795e918545.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -45,32 +53,40 @@
       "path---skills-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-home-js": [
-      "component---src-pages-home-js-0fcb8aad7185ca29da19.js",
-      "component---src-pages-home-js-0fcb8aad7185ca29da19.js.map"
+      "component---src-pages-home-js-0cd4d618784f90833c87.js",
+      "component---src-pages-home-js-0cd4d618784f90833c87.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-953aa4cc8670869489f6.js",
-      "component---src-pages-404-js-953aa4cc8670869489f6.js.map"
+      "component---src-pages-404-js-d4217431f01ca8848544.js",
+      "component---src-pages-404-js-d4217431f01ca8848544.js.map"
+    ],
+    "component---src-pages-contato-js": [
+      "component---src-pages-contato-js-6c699490341cb313ee2d.js",
+      "component---src-pages-contato-js-6c699490341cb313ee2d.js.map"
     ],
     "commons": [
-      "commons-71647045988c7f809179.js",
+      "commons-ff96b8a308228b57d0b2.js",
       "build-js-styles.css",
-      "commons-71647045988c7f809179.js.map",
+      "commons-ff96b8a308228b57d0b2.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---success": [
+      "path---success-a0e39f21c11f6a62c5ab.js",
+      "path---success-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-be142e673399b9779b0c.js",
+      "app-c4209e80c2fefa55275a.js",
       "build-js-styles.css",
-      "app-be142e673399b9779b0c.js.map",
+      "app-c4209e80c2fefa55275a.js.map",
       "build-js-styles.css.map"
     ],
-    "path---blog-sigdro": [
-      "path---blog-sigdro-35df8598ad5281ea2a68.js",
-      "path---blog-sigdro-35df8598ad5281ea2a68.js.map"
+    "path---projetos-sigdro": [
+      "path---projetos-sigdro-f21e7bd183e58bd21edb.js",
+      "path---projetos-sigdro-f21e7bd183e58bd21edb.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
