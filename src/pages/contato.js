@@ -27,7 +27,6 @@ export default class Footer extends Component {
             type="hidden"
             name="form-name"
             value="contact"
-            data-netlify-recaptcha
           />
           <div className="row left-align">
             <div className="input-field col s12">
@@ -60,7 +59,12 @@ export default class Footer extends Component {
               <label for="ms">Mensagen</label>
             </div>
           </div>
-          <div data-netlify-recaptcha />
+          <div data-netlify-recaptcha></div>
+          <input
+            name="form-name"
+            value="contact"
+            data-netlify-recaptcha
+          />
           <button
             className="btn waves-effect grey waves-dark darken-3 white-text z-depth-4"
             type="submit"
