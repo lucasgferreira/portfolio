@@ -95,7 +95,7 @@ export default class Footer extends Component {
                       href="https://github.com/lucasgferreira"
                       style={{ margin: '1px' }}
                     >
-                      <i className="material-icons right">code</i>Github
+                      <i className="material-icons left">code</i>Github
                     </a>
                     <a
                       className="waves-effect waves-light btn blue darken-3"

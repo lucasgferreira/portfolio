@@ -8,6 +8,7 @@ import Bubble, {
 
 import { Parallax } from 'react-materialize'
 
+import Header from '../components/Header';
 import Home from './home'
 import Skills from './skills'
 import Contato from './contato'
@@ -20,6 +21,8 @@ export default class Portfolio extends Component {
     return (
       <BubbleLayerBoundary className="bg-dark darken-4">
         <main>
+
+          <Header/>
           <Home />
 
           <ScrollableAnchor id="skills">

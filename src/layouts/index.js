@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import 'github-markdown-css/github-markdown.css';
 import 'material-icons/iconfont/material-icons.scss';
 
-import Header from '../components/Header';
 import './styles/style.css';
 import './styles/devicon.min.css';
 import './styles/devicon-colors.css';
@@ -21,7 +20,7 @@ const TemplateWrapper = ({children}) => (
 
       <title>Lucas Gonçalves</title>
     </Helmet>
-    <Header/>
+    
     <div>
       {children()}
     </div>
