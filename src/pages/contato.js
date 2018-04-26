@@ -23,11 +23,12 @@ export default class Footer extends Component {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input
-            type="hidden"
-            name="form-name"
-            value="contact"
-          />
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you're human: <input name="bot-field" />
+            </label>
+          </p>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="row left-align">
             <div className="input-field col s12">
               <i className="material-icons prefix">account_circle</i>
@@ -59,12 +60,7 @@ export default class Footer extends Component {
               <label for="ms">Mensagen</label>
             </div>
           </div>
-          <div data-netlify-recaptcha></div>
-          <input
-            name="form-name"
-            value="contact"
-            data-netlify-recaptcha
-          />
+          <div data-netlify-recaptcha />
           <button
             className="btn waves-effect grey waves-dark darken-3 white-text z-depth-4"
             type="submit"
