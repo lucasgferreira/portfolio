@@ -30,8 +30,8 @@ export default class Home extends Component {
               <div className="card-content white-text" style={{margin: '0px', padding: '0px'}}>
                 <Typist
                   className="TypistExample-header"
-                  avgTypingSpeed={4000}
-                  startDelay={1000}
+                  avgTypingSpeed={20}
+                  startDelay={100}
                   onTypingDone={this.onHeaderTyped}
                   cursor={{
                     show: true,
@@ -54,10 +54,12 @@ export default class Home extends Component {
                   {this.state.renderMsg ? (
                     <Typist
                       className="TypistExample-message p"
+                      avgTypingSpeed={20}
                       cursor={{
                         hideWhenDone: false,
                       }}
                     >
+                    
                       <strong className="font-weight-bold">{'<p>'} </strong>
                       <a
                         className="p"
@@ -67,10 +69,10 @@ export default class Home extends Component {
                       >
                         Desenvolvedor Web & Mobile
                       </a>
-                      <Typist.Delay ms={500} />
+                      <Typist.Delay ms={40} />
                       <strong className="font-weight-bold">{' p>'}</strong>
-                      <Typist.Backspace count={2} delay={1000} />
-                      <Typist.Delay ms={750} />
+                      <Typist.Backspace count={2} delay={80} />
+                      <Typist.Delay ms={60} />
                       <strong className="font-weight-bold">{' </p>'}</strong>
                     </Typist>
                   ) : null}
