@@ -19,7 +19,7 @@ export default class Header extends Component {
         floating
         fab="horizontal"
         icon="menu"
-        className="bg-dark darken-4"
+        className="waves-effect blue-grey waves-dark darken-4"
         large
         style={{ bottom: '45px', right: '24px' }}
       >
