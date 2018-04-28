@@ -31,7 +31,7 @@ export default class Footer extends Component {
     return (
       <div>
 
-        <footer className="page-footer green darken-3">
+        <footer className="page-footer green darken-4">
           <div className="container">
             <div className="row">
               <div className="col l6 s12">

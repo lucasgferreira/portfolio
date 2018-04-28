@@ -69,10 +69,10 @@ export default class Home extends Component {
                       >
                         Desenvolvedor Web & Mobile
                       </a>
-                      <Typist.Delay ms={40} />
+                      <Typist.Delay ms={400} />
                       <strong className="font-weight-bold">{' p>'}</strong>
-                      <Typist.Backspace count={2} delay={80} />
-                      <Typist.Delay ms={60} />
+                      <Typist.Backspace count={2} delay={800} />
+                      <Typist.Delay ms={500} />
                       <strong className="font-weight-bold">{' </p>'}</strong>
                     </Typist>
                   ) : null}

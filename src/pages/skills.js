@@ -9,7 +9,7 @@ class Skills extends Component {
             <div className="valign-wrapper center-align skill">
                 <div className="container ">
 
-                    <div className="card blue-grey darken-1 hoverable">
+                    <div className="card transparent z-depth-0">
                         <div className="card-content white-text">
                             <span className="card-title">Skills</span>
                             <p>Alguns de meus conhecimentos técnicos.</p>

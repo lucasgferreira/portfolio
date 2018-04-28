@@ -35,7 +35,7 @@ export default class Footer extends Component {
                 required
                 title="preencha o seu nome!"
               />
-              <label for="icon_prefix">Nome</label>
+              <label htmlFor="icon_prefix">Nome</label>
             </div>
             <div className="input-field col s12">
               <i className="material-icons prefix">email</i>
@@ -47,7 +47,7 @@ export default class Footer extends Component {
                 required
                 title="preencha o campo email!"
               />
-              <label for="icon_prefix">Email</label>
+              <label htmlFor="icon_prefix">Email</label>
             </div>
             <div className="input-field col s12">
               <i className="material-icons prefix">message</i>
@@ -58,12 +58,12 @@ export default class Footer extends Component {
                 required
                 title="preencha o campo menssagem!"
               />
-              <label for="ms">Mensagen</label>
+              <label htmlFor="ms">Mensagen</label>
             </div>
           </div>
           <div data-netlify-recaptcha />
           <button
-            className="btn waves-effect grey waves-dark darken-3 white-text z-depth-4"
+            className="btn waves-effect grey waves-dark darken-4 white-text z-depth-4"
             type="submit"
           >
             Submit

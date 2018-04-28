@@ -23,19 +23,37 @@
 }
 
 .parallaxbg {
-  max-height: 100px;
+  height: 50vh;
 }
 
 .contato-bg {
-  background: url('../assets/contact_us.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/contact_us.jpg') no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   width: auto;
   box-sizing: border-box;
+  background-attachment: fixed;
 }
 
-.footer {
+.main{
+  position: relative;
+}
+
+.sobre-bg {
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/code.jpg') no-repeat center center;
+  background-size: cover;
   height: 100vh;
+  opacity: .1;
+  width: auto;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+.sobre-bg-second{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 /* ===================font========================== */

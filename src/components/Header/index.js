@@ -3,9 +3,7 @@ import { Navbar, NavItem, Icon, Container, Button } from 'react-materialize'
 import { navigateTo } from 'gatsby-link'
 import {
   goToTop,
-  goToAnchor,
-  removeHash,
-  configureAnchors,
+  goToAnchor
 } from 'react-scrollable-anchor'
 
 export default class Header extends Component {
@@ -25,6 +23,7 @@ export default class Header extends Component {
       >
         <Button floating icon="contacts" onClick={()=>{goToAnchor('contato')}} className="green darken-3" />
         <Button floating icon="code" onClick={()=>{goToAnchor('skills')}} className="grey darken-3" />
+        <Button floating icon="account_circle" onClick={()=>{goToAnchor('sobre')}} className="red darken-4" />
         <Button floating icon="arrow_upward" onClick={()=>{goToTop()}} className="blue darken-3" />
       </Button>
     )
