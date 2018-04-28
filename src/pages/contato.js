@@ -32,6 +32,8 @@ export default class Footer extends Component {
                 id="icon_prefix"
                 type="text"
                 className="validate"
+                required
+                title="preencha o seu nome!"
               />
               <label for="icon_prefix">Nome</label>
             </div>
@@ -42,6 +44,8 @@ export default class Footer extends Component {
                 id="icon_prefix"
                 type="email"
                 className="validate"
+                required
+                title="preencha o campo email!"
               />
               <label for="icon_prefix">Email</label>
             </div>
@@ -51,6 +55,8 @@ export default class Footer extends Component {
                 name="message"
                 id="ms"
                 className="materialize-textarea"
+                required
+                title="preencha o campo menssagem!"
               />
               <label for="ms">Mensagen</label>
             </div>
