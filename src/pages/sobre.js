@@ -25,11 +25,11 @@ export default class Footer extends Component {
                 <span className="card-title">Olá!</span>
                 <p style={{ fontSize: '14pt' }}>
                   Sou um programador dinâmico entusiasta e profissional que
-                  gostaria de fazer parte de uma equipa bem sucedida e produ va.
-                  Sou capaz de trabalhar bem por inicia va própria e posso
-                  demonstrar os elevados níveis de mo vação requeridos para
-                  cumprir os prazos mais curtos. Tenho facilidade em seguir aos
-                  padrões adotados e de aprender novas tecnologias.
+                  gostaria de fazer parte de uma equipe bem sucedida e
+                  produtiva. Sou capaz de trabalhar bem por iniciativa própria e
+                  posso demonstrar os elevados níveis de motivação requeridos
+                  para cumprir os prazos mais curtos. Tenho facilidade em seguir
+                  aos padrões adotados e de aprender novas tecnologias.
                 </p>
               </div>
               <div className="card-action">
