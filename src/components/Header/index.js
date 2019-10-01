@@ -11,6 +11,7 @@ export default class Header extends Component {
     goToAnchor('home')
     // removeHash();
   }
+  
   render() {
     return (
       <Button

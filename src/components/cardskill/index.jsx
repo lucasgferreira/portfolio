@@ -16,7 +16,7 @@ class CardSkill extends Component {
       <strong className="green-text">Experiente</strong>
     );
   }
-
+  
   render() {
     return (
 
