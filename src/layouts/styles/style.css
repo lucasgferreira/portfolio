@@ -40,7 +40,7 @@
 }
 
 .sobre-bg {
-  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/code.jpg') no-repeat center center;
+  /* background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/code.jpg') no-repeat center center; */
   background-size: cover;
   height: 100vh;
   opacity: .1;

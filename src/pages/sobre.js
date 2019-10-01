@@ -11,7 +11,7 @@ import {
 import Plx from 'react-plx'
 import { goToAnchor } from 'react-scrollable-anchor'
 import { navigateTo } from 'gatsby-link'
-import bgcode from '../layouts/assets/contact_us.jpg'
+//import bgcode from '../layouts/assets/contact_us.jpg'
 
 export default class Footer extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class Footer extends Component {
             <div className="card transparent z-depth-0">
               <div className="card-content white-text">
                 <span className="card-title">Olá!</span>
-                <p style={{ fontSize: '14pt' }}>
+                <p style={{ fontSize: '14pt', textAlign: 'justify' }}>
                   Sou um programador dinâmico entusiasta e profissional que
                   gostaria de fazer parte de uma equipe bem sucedida e
                   produtiva. Sou capaz de trabalhar bem por iniciativa própria e

@@ -13,7 +13,7 @@ class CardSkill extends Component {
       );
     }
     return (
-      <strong className="green-text">Expert</strong>
+      <strong className="green-text">Experiente</strong>
     );
   }
 

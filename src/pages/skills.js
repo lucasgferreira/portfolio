@@ -24,17 +24,17 @@ class Skills extends Component {
 
                         <CardSkill nome="Bootstrap" icon="bootstrap" nivel={3}/>
 
-                        <CardSkill nome="JavaScript" icon="javascript" nivel={2}/>
+                        <CardSkill nome="JavaScript" icon="javascript" nivel={3}/>
 
-                        <CardSkill nome="React" icon="react" nivel={2}/>
+                        <CardSkill nome="React" icon="react" nivel={3}/>
 
-                        <CardSkill nome="Angular" icon="angularjs" nivel={2}/>
+                        <CardSkill nome="Angular" icon="angularjs" nivel={1}/>
 
                         <CardSkill nome="NodeJs" icon="nodejs" nivel={1}/>
 
-                        <CardSkill nome="PHP" icon="php" nivel={2}/>
+                        <CardSkill nome="PHP" icon="php" nivel={3}/>
 
-                        <CardSkill nome="Laravel" icon="laravel" nivel={1}/>
+                        <CardSkill nome="Laravel" icon="laravel" nivel={3}/>
 
                         <CardSkill nome="WordPress" icon="wordpress" nivel={1}/>
 
@@ -42,13 +42,13 @@ class Skills extends Component {
 
                         <CardSkill nome="Android" icon="android" nivel={2}/>
 
-                        <CardSkill nome="MySql" icon="mysql" nivel={2}/>
+                        <CardSkill nome="MySql" icon="mysql" nivel={3}/>
 
                         <CardSkill nome="MongoDB" icon="mongodb" nivel={1}/>
 
                         <CardSkill nome="Ubuntu" icon="ubuntu" nivel={2}/>
 
-                        <CardSkill nome="GIT" icon="git" nivel={2}/>
+                        <CardSkill nome="GIT" icon="git" nivel={3}/>
                     </div>
                 </div>
             </div>

@@ -25,9 +25,9 @@ export default class Portfolio extends Component {
 
           <Header/>
           <Home />
-          <ScrollableAnchor id="sobre">
+          {/* <ScrollableAnchor id="sobre">
             <Sobre />
-          </ScrollableAnchor>
+          </ScrollableAnchor> */}
           <ScrollableAnchor id="skills">
             <Skills />
           </ScrollableAnchor>

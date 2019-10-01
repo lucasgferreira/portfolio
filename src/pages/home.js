@@ -78,7 +78,7 @@ export default class Home extends Component {
                   ) : null}
                 </div>
               </div>
-              <div className="card-action">
+              {/* <div className="card-action">
                 <div className="row center-align">
                   <button
                     onClick={() => navigateTo('/projetos')}
@@ -87,7 +87,7 @@ export default class Home extends Component {
                     <i className="material-icons left">library_books</i>projetos
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
            
           </div>
