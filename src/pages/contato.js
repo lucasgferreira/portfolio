@@ -58,7 +58,7 @@ export default class Footer extends Component {
                 required
                 title="preencha o campo menssagem!"
               />
-              <label htmlFor="ms">Mensagen</label>
+              <label htmlFor="ms">Mensagem</label>
             </div>
           </div>
           <div data-netlify-recaptcha />
