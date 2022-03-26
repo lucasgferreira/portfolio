@@ -12,20 +12,6 @@ import { navigateTo } from 'gatsby-link'
 import bgcode from '../../layouts/assets/contact_us.jpg'
 
 export default class Footer extends Component {
-  links = () => {
-    return (
-      <ul className="white-text">
-        <li>
-          <span className="title">E-mail</span>
-          <p>
-            <a className="white-text" href="mailto:lucasg_f@outlook.com">
-              lucasg_f@outlook.com
-            </a>
-          </p>
-        </li>
-      </ul>
-    )
-  }
 
   render() {
     return (
