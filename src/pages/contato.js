@@ -84,8 +84,7 @@ export default class Footer extends Component {
                 <div className="card-content white-text">
                   <span className="card-title">Redes sociais</span>
                   <p style={{ fontSize: '14pt' }}>
-                    Deixe seu recado no formulário de contato! Ou pelo e-mail:
-                    lucasgoncalves.developer@gmail.com
+                    Deixe seu recado no formulário de contato!
                   </p>
                 </div>
                 <div className="card-action">
